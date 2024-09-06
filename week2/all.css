@@ -177,6 +177,17 @@ img {
 
 }
 
+connect_icon img{
+    border-radius: 40px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.08);  
+}
+
+.connect-icon:hover img{
+    border-radius: 40px;
+    transition: 0.4s;
+    box-shadow: 0 0 16px 3px rgba(144, 148, 255, 0.9), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
 .pr-16{
     padding-right: 16px;
 }
@@ -219,7 +230,7 @@ img {
 }
 
 .pr-24{
-    
+
 }
 
 .footer{
